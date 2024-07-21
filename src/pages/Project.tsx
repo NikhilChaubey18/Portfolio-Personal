@@ -11,7 +11,7 @@ const Project = () => {
         <div className=" ">
 
             <div className="grid md:grid-cols-2 gap-11 ">
-                <img className="project1" src="./public/proimage.gif"></img>
+                <img className="project1" src="https://media.giphy.com/media/NUnWs5owuCPLYiy683/giphy.gif?cid=ecf05e47t0yqtl9cj0m5f44d9wxb2ubdyqfaty5e9pegf2u6&ep=v1_gifs_related&rid=giphy.gif&ct=g"></img>
                 <div>
                     <div className="flex flex-col items-center mt-3">
                         <span className="text-4xl mb-2"><img className="" src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="80px" /></span>
@@ -21,7 +21,7 @@ const Project = () => {
                 </div>
                 {/* project1 */}
                 <div className="card" >
-                    <img src="./public/hotelapp.png" className="card-img-top" alt="..." />
+                    <img src="https://media.giphy.com/media/LtUpki6u0XVG8/giphy.gif?cid=790b76114g6vt8sd9nuboh0ib3bru38vxcwemysjp7zi0nt0&ep=v1_gifs_search&rid=giphy.gif&ct=g" className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Wanderlust</h5>
                         <p className="card-text">Developing a hotel app with EJS, Node.js, Express, and MongoDB for seamless booking, management, and personalized guest experiences.</p>
@@ -30,7 +30,7 @@ const Project = () => {
                 </div>
                 {/* project2 */}
                 <div className="card" >
-                    <img src="./public/Food.png" className="card-img-top" alt="..." />
+                    <img src="https://media.giphy.com/media/6rUFkGikou4GQ/giphy.gif?cid=790b76117snjopmc8b3nqxa9zl1sf49bforifdsdlg2kuntm&ep=v1_gifs_search&rid=giphy.gif&ct=g" className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">EarFood.com</h5>
                         <p className="card-text">Fast and convenient food delivery app built with React, Node.js, Express, and MongoDB, offering seamless ordering and personalized recommendations</p>

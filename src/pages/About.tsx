@@ -10,7 +10,7 @@ const About = () => {
         <div className=" ">
 
             <div className="grid md:grid-cols-2 gap-10 ">
-                <img className="project1" src="./public/giphy.webp"></img>
+                <img className="project1" src="https://media.giphy.com/media/YFFGUPTPTRqIhwepA4/giphy.gif?cid=790b7611oxwgho5lo1aw4axdp5ibigf3fx205jctecz5sp5g&ep=v1_gifs_search&rid=giphy.gif&ct=g"></img>
                 <div>
                     <div className="flex flex-col items-center mt-3">
                         <span className="text-4xl mb-2"><img className="" src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="80px" /></span>
