@@ -103,7 +103,7 @@
     height: 240px;
   }
 
-  /* .pop{
+  /* .pop::before{
     content: "";
     position:absolute;
     width:100%;

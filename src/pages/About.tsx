@@ -1,5 +1,5 @@
 
-import { Link } from "react-router-dom";
+
 
 
 const About = () => {
@@ -16,26 +16,32 @@ const About = () => {
                         <span className="text-4xl mb-2"><img className="" src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="80px" /></span>
                         <span className="text-4xl  mb-2">Education</span>
                      
-                        <p className="  text-lg text-center text-gray-600">I actively participate in hackathons and other tech-related activities. Below are some of my major certifications.</p>
+                        <p className="  text-lg text-center text-gray-600 font-sans">I actively participate in hackathons and other tech-related activities. Below are some of my major certifications.</p>
                     </div>
                 </div>
                 </div>
-                <div className="card text-center">
+                {/* <div className="card text-center">
   <div className="card-header">
   Madan Mohan Malaviya University of Technology
-  </div>
-  <div className="card-body">
+  </div> */}
+  {/* <div className="card-body">
     <h5 className="card-title">Bachelor of Technology</h5>
     <p className="card-text">  Electrical and electronics engineering & minor in computer science engineering</p>
     <Link to="http://www.mmmut.ac.in/" className="btn btn-dark">Visit Website</Link>
   </div>
   <div className="card-footer text-body-secondary">
   2022- 2026
+  </div> */}
+  <div className="card text-bg-info text-center mb-3 mt-2 text-white shadow-xl" >
+  <div className="card-header fw-bold fs-4"> Madan Mohan Malaviya University of Technology</div><span className="text-end fw-medium">2022-2026</span>
+  <div className="card-body fw-medium">
+    <p className="card-text">Bachelor of Technology in  Electrical and electronics engineering & minor in computer science engineering</p>
   </div>
+</div>
 </div>
 
 
-        </div>
+       
 
 
 
