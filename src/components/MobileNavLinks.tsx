@@ -1,42 +1,47 @@
 import { Link } from "react-router-dom";
+import { FC } from 'react';
 
+type MobileNavLinksProps = {
+  onLinkClick: () => void;
+};
 
-
-const MobileNavLinks = () => {
-  
+const MobileNavLinks: FC<MobileNavLinksProps> = ({ onLinkClick }) => {
   return (
     <>
-      <Link
+      <Link onClick={onLinkClick}
         to="/profile"
-        className="flex bg-white items-center font-bold hover:text-sky-500 "
+        className="flex bg-white items-center font-bold hover:text-sky-500"
       >
-       Profile
+        Profile
       </Link>
-      <Link
+      <Link onClick={onLinkClick}
         to="/project"
-        className="flex bg-white items-center font-bold hover:text-sky-500 "
-      >Project
-      </Link>
-      <Link
-        to="/about"
-        className="flex bg-white items-center font-bold hover:text-sky-500 "
+        className="flex bg-white items-center font-bold hover:text-sky-500"
       >
-       Education
+        Project
       </Link>
-      <Link
+      <Link onClick={onLinkClick}
+        to="/about"
+        className="flex bg-white items-center font-bold hover:text-sky-500"
+      >
+        Education
+      </Link>
+      <Link onClick={onLinkClick}
         to="/resume"
-        className="flex bg-white items-center font-bold hover:text-sky-500 "
-      >Resume
+        className="flex bg-white items-center font-bold hover:text-sky-500"
+      >
+        Resume
       </Link>
-      <Link
+      <Link onClick={onLinkClick}
         to="/contact"
-        className="flex bg-white items-center font-bold hover:text-sky-500 "
-      >Contact
+        className="flex bg-white items-center font-bold hover:text-sky-500"
+      >
+        Contact
       </Link>
-    
-     
     </>
   );
 };
 
 export default MobileNavLinks;
+
+
