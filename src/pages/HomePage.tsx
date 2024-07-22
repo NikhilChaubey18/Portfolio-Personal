@@ -31,9 +31,10 @@ import { SocialIcon } from "react-social-icons";
       <div className="flex gup gap-3 mt-1">
       <SocialIcon url="https://github.com/NikhilChaubey18" className="pag" bgColor="#333" fgColor="#fff" />
       <SocialIcon url="https://linkedin.com/in/your-profile" bgColor="#0077B5" fgColor="#fff" />
+      <SocialIcon url="mailto:nikhilch1804@gmail.com" bgColor="#7f7f7f" fgColor="#fff" />
       {/* Add more social icons as needed */}
     </div>
-     <Link to= "/about" className=" button1 flex flex-col mt-3">
+     <Link to= "/contact" className=" button1 flex flex-col mt-3">
         Contact Me
      </Link>
     </div>

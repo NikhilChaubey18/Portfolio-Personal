@@ -1,5 +1,5 @@
 
-
+import { Link } from "react-router-dom";
 
 
 const About = () => {
@@ -20,6 +20,21 @@ const About = () => {
                     </div>
                 </div>
                 </div>
+                <div className="card text-center">
+  <div className="card-header">
+  Madan Mohan Malaviya University of Technology
+  </div>
+  <div className="card-body">
+    <h5 className="card-title">Bachelor of Technology</h5>
+    <p className="card-text"> Bachelor of Technology in electrical and electronics engineering & minor in computer science engineering</p>
+    <Link to="http://www.mmmut.ac.in/" className="btn btn-dark">Visit WebsiteS</Link>
+  </div>
+  <div className="card-footer text-body-secondary">
+  2022- 2026
+  </div>
+</div>
+
+
         </div>
 
 

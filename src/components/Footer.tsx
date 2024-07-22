@@ -8,8 +8,8 @@ const Footer = () => {
             Made by Nikhil 
           </span>
           <span className="text-white font-bold tracking-tight flex gap-4">
-          <Link to="/" className="font-bold hover:text-sky-500  ">
-        Let's grow together
+          <Link to="mailto:nikhilch1804@gmail.com" className="font-bold hover:text-sky-500  ">
+        nikhilch1804@gmail.com
           </Link>
           {/* <Link to="/g" className="font-bold hover:text-sky-500  ">
          GitHub
