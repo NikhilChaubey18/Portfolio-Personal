@@ -18,7 +18,7 @@ const MainNav = () => {
         Project
           </Link>
           <Link to="/about" className="font-bold hover:text-sky-500 " >
-        About
+      Education
           </Link>
           <Link to="/resume" className="font-bold hover:text-sky-500 ">
          Resume

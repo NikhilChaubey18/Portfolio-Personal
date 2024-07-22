@@ -21,7 +21,7 @@ export default function AppRoute() {
     
       
     
-    <Route path="/userpr" element={<h1>hii l'm fine</h1>}></Route>
+   
    </Routes>
   )
 }

@@ -21,7 +21,7 @@ const MobileNavLinks = () => {
         to="/about"
         className="flex bg-white items-center font-bold hover:text-sky-500 "
       >
-       About
+       Education
       </Link>
       <Link
         to="/resume"
