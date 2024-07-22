@@ -30,7 +30,7 @@ import { SocialIcon } from "react-social-icons";
       <p className=" font-bold text-3xl text-center text-grey-400"><span className="text-gray-500">I'm </span><span className="text-sky-500">Nikhil Chaubey</span><span className="text-gray-500">.Full Stack Developer, Machine Learning Enthusiast. Always learning.</span></p>
       <div className="flex gup gap-3 mt-1">
       <SocialIcon url="https://github.com/NikhilChaubey18" className="pag" bgColor="#333" fgColor="#fff" />
-      <SocialIcon url="https://linkedin.com/in/your-profile" bgColor="#0077B5" fgColor="#fff" />
+      <SocialIcon url="https://www.linkedin.com/in/nikhil-chaubey-4b5859227/" bgColor="#0077B5" fgColor="#fff" />
       <SocialIcon url="mailto:nikhilch1804@gmail.com" bgColor="#7f7f7f" fgColor="#fff" />
       {/* Add more social icons as needed */}
     </div>
