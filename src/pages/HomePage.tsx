@@ -34,7 +34,7 @@ import { SocialIcon } from "react-social-icons";
       <SocialIcon url="mailto:nikhilch1804@gmail.com" bgColor="#7f7f7f" fgColor="#fff" />
       {/* Add more social icons as needed */}
     </div>
-     <Link to= "/contact" className=" button1 flex flex-col mt-3">
+     <Link to= "/contact" className=" button1 flex flex-col mt-3 ">
         Contact Me
      </Link>
     </div>

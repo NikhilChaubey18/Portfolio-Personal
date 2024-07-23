@@ -29,7 +29,7 @@
       <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
       <h3 className=" font-bold text-3xl text-center text-grey-400">Here's what I do</h3>
       
-      <p>⚡ Building responsive website front end using ReactJSs<br></br>
+      <p className="text-lg text-center text-gray-600 font-sans">⚡ Building responsive website front end using ReactJSs<br></br>
 
           ⚡ Backend development using NodeJS, ExpressJS and Flask<br></br>
           ⚡  Developed and deployed full-stack solutions with the MERN stack</p>

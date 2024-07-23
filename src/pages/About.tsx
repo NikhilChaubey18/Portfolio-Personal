@@ -32,11 +32,13 @@ const About = () => {
   <div className="card-footer text-body-secondary">
   2022- 2026
   </div> */}
-  <div className="card text-bg-info text-center mb-3 mt-2 text-white shadow-2xl" >
+  <div className="flex items-center justify-center ">
+  <div className="card text-bg-info text-center mb-3 mt-2 text-white shadow-2xl " >
   <div className="card-header fw-bold fs-4"> Madan Mohan Malaviya University of Technology</div><span className="text-end fw-medium">2022-2026</span>
   <div className="card-body fw-medium">
     <p className="card-text">Bachelor of Technology in  Electrical and electronics engineering & minor in computer science engineering</p>
   </div>
+</div>
 </div>
 </div>
 
