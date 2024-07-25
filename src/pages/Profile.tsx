@@ -31,7 +31,7 @@
       
       <p className="text-lg text-center text-gray-600 font-sans">⚡ Building responsive website front end using ReactJSs<br></br>
 
-          ⚡ Backend development using NodeJS, ExpressJS <br></br>
+          ⚡ Backend development using NodeJS & ExpressJS <br></br>
           ⚡  Developed and deployed full-stack solutions with the MERN stack</p>
       
     
