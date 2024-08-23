@@ -24,8 +24,8 @@ const Contact = () => {
       {/* Add more social icons as needed */}
       
     </div>
-    <Link to= "/resume" className=" button1 flex flex-col mt-4">
-        See my Resume
+    <Link to= "" className=" button1 flex flex-col mt-4">
+    Contact Here
      </Link>
     </div>
                     </div>
