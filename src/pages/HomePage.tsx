@@ -34,7 +34,7 @@ import { SocialIcon } from "react-social-icons";
       <SocialIcon url="mailto:nikhilch1804@gmail.com" bgColor="#7f7f7f" fgColor="#fff" />
       {/* Add more social icons as needed */}
     </div>
-     <Link to= "https://drive.google.com/file/d/1E5tgSX6ltjhEO4XXFERQMbYk--BpJNvL/view?usp=sharing" className=" button1 flex flex-col mt-3 ">
+     <Link to= "https://drive.google.com/file/d/1fv19jLeGeHhL3gdyExGv3a6L7hbEL14V/view?usp=drive_link" className=" button1 flex flex-col mt-3 ">
          See my Resume
      </Link>
     </div>
