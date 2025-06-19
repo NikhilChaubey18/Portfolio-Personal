@@ -1,6 +1,11 @@
 
 import { Link } from "react-router-dom";
 import { SocialIcon } from "react-social-icons";
+import Profile from "./Profile";
+import Project from "./Project";
+import About from "./About";
+import Contact from "./Contact";
+import { Separator } from "@radix-ui/react-separator";
 
   const HomePage = () => {
  
@@ -24,17 +29,17 @@ import { SocialIcon } from "react-social-icons";
             <span>Order takeaway even faster! </span>
           </span></div> */}
           {/*  */}
-          <div className="flex flex-col items-center mt-1">
+          <div className="flex flex-col items-center -mt-6">
       {/* <span className="text-4xl mb-2"><img className="" src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="80px"/></span> */}
       <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
-      <p className=" font-bold text-3xl text-center text-grey-400"><span className="text-gray-500">I'm </span><span className="text-sky-500">Nikhil Chaubey</span><span className="text-gray-500">.Full Stack Developer, Machine Learning Enthusiast. Always learning.</span></p>
+      <p className=" font-bold text-3xl text-center text-grey-400"><span className="text-gray-500">I'm </span><span className="text-sky-500">Nikhil Chaubey</span><span className="text-gray-500">. Full Stack Developer, passionate about building scalable web solutions. Always learning.</span></p>
       <div className="flex gup gap-3 mt-1">
       <SocialIcon url="https://github.com/NikhilChaubey18" className="pag" bgColor="#333" fgColor="#fff" />
       <SocialIcon url="https://www.linkedin.com/in/nikhil-chaubey-4b5859227/" bgColor="#0077B5" fgColor="#fff" />
       <SocialIcon url="mailto:nikhilch1804@gmail.com" bgColor="#7f7f7f" fgColor="#fff" />
       {/* Add more social icons as needed */}
     </div>
-     <Link to= "https://drive.google.com/file/d/1fv19jLeGeHhL3gdyExGv3a6L7hbEL14V/view?usp=drive_link" className=" button1 flex flex-col mt-3 ">
+     <Link to= "https://drive.google.com/file/d/1DdbqI4WFmr2afFmK5gGRAU6ey-172hgA/view?usp=sharing" className=" button1 flex flex-col mt-3 ">
          See my Resume
      </Link>
     </div>
@@ -56,7 +61,10 @@ import { SocialIcon } from "react-social-icons";
      
     
     </div>
+    
+    
     </div>
+
   
     </>
 

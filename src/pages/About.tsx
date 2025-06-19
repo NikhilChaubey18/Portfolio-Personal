@@ -1,12 +1,13 @@
 
-
+import { Link } from "react-router-dom"
 
 
 const About = () => {
 
 
 
-    return (<>
+    return (
+     
         <div className=" ">
 
             <div className="grid md:grid-cols-2 gap-10 ">
@@ -20,35 +21,37 @@ const About = () => {
                     </div>
                 </div>
                 </div>
-                {/* <div className="card text-center">
+                 <div className="card text-center mt-10">
   <div className="card-header">
+    <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Znlza3hnbWVreDRra3d1aXA2eHc2Y2wybWVyNGJueHdlMnRqajVrOSZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/TgGXTXZXsh4gmwar5X/giphy.gif" className="card-img-top" alt="..." />
   Madan Mohan Malaviya University of Technology
-  </div> */}
-  {/* <div className="card-body">
+  </div> 
+  <div className="card-body">
     <h5 className="card-title">Bachelor of Technology</h5>
-    <p className="card-text">  Electrical and electronics engineering & minor in computer science engineering</p>
-    <Link to="http://www.mmmut.ac.in/" className="btn btn-dark">Visit Website</Link>
+    <p className="card-text">  Electrical Engineering & minor in Computer Science Engineering</p>
+    
   </div>
   <div className="card-footer text-body-secondary">
   2022- 2026
-  </div> */}
-  <div className="flex items-center justify-center ">
+  </div> 
+  {/* <div className="flex items-center justify-center ">
   <div className="card text-bg-info text-center mb-3 mt-2 text-white shadow-2xl " >
+    <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Znlza3hnbWVreDRra3d1aXA2eHc2Y2wybWVyNGJueHdlMnRqajVrOSZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/TgGXTXZXsh4gmwar5X/giphy.gif" className="card-img-top" alt="..." />
   <div className="card-header fw-bold fs-4"> Madan Mohan Malaviya University of Technology</div><span className="text-end fw-medium">2022-2026</span>
   <div className="card-body fw-medium">
     <p className="card-text">Bachelor of Technology in  Electrical Engineering & minor in computer science engineering</p>
   </div>
 </div>
 </div>
-</div>
+</div> */}
 
 
        
 
 
 
-
-    </>
+</div>
+</div>
 
 
     );
