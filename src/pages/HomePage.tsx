@@ -1,11 +1,7 @@
 
 import { Link } from "react-router-dom";
 import { SocialIcon } from "react-social-icons";
-import Profile from "./Profile";
-import Project from "./Project";
-import About from "./About";
-import Contact from "./Contact";
-import { Separator } from "@radix-ui/react-separator";
+
 
   const HomePage = () => {
  
