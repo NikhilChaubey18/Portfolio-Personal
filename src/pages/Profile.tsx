@@ -27,16 +27,25 @@
           <div className="flex flex-col items-center  mt-1 ">
      
       <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
-      <h3 className=" font-bold text-3xl text-center text-grey-400">Here's what I do</h3>
+      <h3 className=" font-bold text-3xl text-center text-grey-400">💻 About Me</h3>
       
-      <p className="text-lg text-center text-gray-600 font-sans">⚡ Building responsive website front end using ReactJSs<br></br>
-
-          ⚡ Backend development using NodeJS & ExpressJS <br></br>
-          ⚡  Developed and deployed full-stack solutions with the MERN stack</p>
-      
-    
+      <p className="text-lg text-center text-gray-600 font-sans">I'm a passionate full-stack web developer specializing in building responsive, high-performance web applications using modern technologies. With a strong foundation in the MERN stack (MongoDB, ExpressJS, ReactJS, and NodeJS), I enjoy turning complex problems into intuitive, scalable solutions.</p>
+      <br></br>
+      <br></br>
+      <br></br>
      
+    
+     <h3 className=" font-bold text-3xl text-center text-grey-400">⚙️ What I Do</h3>
+      
+      <p className="text-lg text-center text-gray-600 font-sans">⚡ <b>Frontend Development:</b> Crafting fast, responsive, and user-friendly interfaces using ReactJS, Tailwind CSS, and modern component-driven design.<br></br>
+
+          ⚡<b> Backend Development:</b> Building scalable RESTful APIs and server-side logic with NodeJS and ExpressJS, ensuring secure and efficient data handling. <br></br>
+          ⚡ <b>Full-Stack Projects:</b> Experienced in end-to-end application development, from designing the database schema to deploying production-ready solutions using the MERN stack.</p>
+
+          
     </div>
+
+    
 
           
           <div>
