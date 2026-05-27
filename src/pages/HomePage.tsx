@@ -1,7 +1,7 @@
 
 import { Link } from "react-router-dom";
 import { SocialIcon } from "react-social-icons";
-import Profile from "./Profile";
+
 
 
   const HomePage = () => {
