@@ -1,6 +1,7 @@
 
 import { Link } from "react-router-dom";
 import { SocialIcon } from "react-social-icons";
+import Profile from "./Profile";
 
 
   const HomePage = () => {
@@ -35,8 +36,8 @@ import { SocialIcon } from "react-social-icons";
       <SocialIcon url="mailto:nikhilch1804@gmail.com" bgColor="#7f7f7f" fgColor="#fff" />
       {/* Add more social icons as needed */}
     </div>
-     <Link to= "https://drive.google.com/file/d/1DdbqI4WFmr2afFmK5gGRAU6ey-172hgA/view?usp=sharing" className=" button1 flex flex-col mt-3 ">
-         See my Resume
+     <Link to= "https://drive.google.com/file/d/10LcsxE8uKYnvQfl327Aq9ccNOSMnx4Xl/view" className=" button1 flex flex-col mt-3 ">
+         Resume
      </Link>
     </div>
 
@@ -60,8 +61,8 @@ import { SocialIcon } from "react-social-icons";
     
     
     </div>
-
-  
+    
+ 
     </>
 
    

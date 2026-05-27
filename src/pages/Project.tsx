@@ -24,7 +24,7 @@ const Project = () => {
                 <div className="card shadow-xl" >
                     <img src="https://media.giphy.com/media/6rUFkGikou4GQ/giphy.gif?cid=790b76117snjopmc8b3nqxa9zl1sf49bforifdsdlg2kuntm&ep=v1_gifs_search&rid=giphy.gif&ct=g" className="card-img-top" alt="..." />
                     <div className="card-body">
-                        <h5 className="card-title">EatFood.com</h5>
+                      <b>  <h5 className="card-title">EatFood.com</h5></b>
                         <p className="card-text">Fast and convenient food delivery app built with React, Node.js, Express, and MongoDB, offering seamless ordering and personalized recommendations</p>
 
                         <Link to="https://food-app-frontent.onrender.com" className="btn mt-1 btn-dark shadow-xl">Go & Check</Link>
@@ -35,20 +35,20 @@ const Project = () => {
                  <div className="card shadow-2xl" >
                     <img src="https://media.giphy.com/media/LtUpki6u0XVG8/giphy.gif?cid=790b76114g6vt8sd9nuboh0ib3bru38vxcwemysjp7zi0nt0&ep=v1_gifs_search&rid=giphy.gif&ct=g" className="card-img-top" alt="..." />
                     <div className="card-body">
-                        <h5 className="card-title">Wanderlust</h5>
+                      <b>  <h5 className="card-title">Wanderlust</h5></b>
                         <p className="card-text">Developing a hotel app with EJS, Node.js, Express, and MongoDB for seamless booking, management, and personalized guest experiences.</p>
                         <Link to="https://wanderlustproject-1.onrender.com" className="btn mt-1 btn-dark shadow-xl">Go & Check</Link>
                     </div>
                 </div>
                 {/* project3 */}
-                {/* <div className="card shadow-2xl" >
-                    <img src="https://media.giphy.com/media/LtUpki6u0XVG8/giphy.gif?cid=790b76114g6vt8sd9nuboh0ib3bru38vxcwemysjp7zi0nt0&ep=v1_gifs_search&rid=giphy.gif&ct=g" className="card-img-top" alt="..." />
+                <div className="card shadow-2xl" >
+                    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHpheW5tYmwxcmY2bTV2YzVyN2hra29rN2l4cnU4czN2M2ZncmlqZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ZQAjSjjrlivs4Y5JSV/giphy.gif" className="card-img-top" alt="..." />
                     <div className="card-body">
-                        <h5 className="card-title">Wanderlust</h5>
-                        <p className="card-text">Developing a hotel app with EJS, Node.js, Express, and MongoDB for seamless booking, management, and personalized guest experiences.</p>
-                        <Link to="https://wanderlustproject-1.onrender.com" className="btn mt-1 btn-dark shadow-xl">Go & Check</Link>
+                       <b> <h5 className="card-title">CareerWill</h5></b>
+                        <p className="card-text">Built a full-stack EdTech platform using React, Node.js, Express, and MongoDB with features like JWT authentication, Razorpay payment integration, instructor dashboard, analytics, and student progress tracking.</p>
+                        <Link to="https://wanderlustproject-1.onrende" className="btn mt-1 btn-dark shadow-xl">Go & Check</Link>
                     </div>
-                </div> */}
+                </div>
                 {/* project4 */}
                 {/* <div className="card" >
                     <img src="..." className="card-img-top" alt="..." />
